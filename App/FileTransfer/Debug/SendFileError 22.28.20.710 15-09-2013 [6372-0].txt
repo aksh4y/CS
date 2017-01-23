@@ -1,0 +1,10 @@
+Base Exception Type: DPSBase.ConnectionSetupException: Connection was closed during establish handshake.
+   at NetworkCommsDotNet.Connection.EstablishConnection()
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, SendReceiveOptions defaultSendReceiveOptions, TcpClient tcpClient, Boolean establishIfRequired)
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, Boolean establishIfRequired)
+   at WPFFileTransferExample.MainWindow.<>c__DisplayClass1d.<SendFileButton_Click>b__1b() in c:\Users\Varun\Desktop\WPFFileTransferExample\WPFFileTransferExample\MainWindow.xaml.cs:line 448
+
+Stack Trace:    at NetworkCommsDotNet.Connection.EstablishConnection()
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, SendReceiveOptions defaultSendReceiveOptions, TcpClient tcpClient, Boolean establishIfRequired)
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, Boolean establishIfRequired)
+   at WPFFileTransferExample.MainWindow.<>c__DisplayClass1d.<SendFileButton_Click>b__1b() in c:\Users\Varun\Desktop\WPFFileTransferExample\WPFFileTransferExample\MainWindow.xaml.cs:line 448

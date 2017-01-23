@@ -1,0 +1,17 @@
+Base Exception Type: DPSBase.ConnectionSetupException: Error during TCP connection establish with destination ([TCP] Local -> 10.10.6.141:10000). Destination may not be listening or connect timed out. System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable network 10.10.6.141:10000
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at NetworkCommsDotNet.TCPConnection.ConnectSocket()
+   at NetworkCommsDotNet.TCPConnection.ConnectSocket()
+   at NetworkCommsDotNet.TCPConnection.EstablishConnectionSpecific()
+   at NetworkCommsDotNet.Connection.EstablishConnection()
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, SendReceiveOptions defaultSendReceiveOptions, TcpClient tcpClient, Boolean establishIfRequired)
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, Boolean establishIfRequired)
+   at WPFFileTransferExample.MainWindow.<>c__DisplayClass1d.<SendFileButton_Click>b__1b() in C:\Users\Varsh\Desktop\WPFFileTransferExample\WPFFileTransferExample\MainWindow.xaml.cs:line 451
+
+Stack Trace:    at NetworkCommsDotNet.TCPConnection.ConnectSocket()
+   at NetworkCommsDotNet.TCPConnection.EstablishConnectionSpecific()
+   at NetworkCommsDotNet.Connection.EstablishConnection()
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, SendReceiveOptions defaultSendReceiveOptions, TcpClient tcpClient, Boolean establishIfRequired)
+   at NetworkCommsDotNet.TCPConnection.GetConnection(ConnectionInfo connectionInfo, Boolean establishIfRequired)
+   at WPFFileTransferExample.MainWindow.<>c__DisplayClass1d.<SendFileButton_Click>b__1b() in C:\Users\Varsh\Desktop\WPFFileTransferExample\WPFFileTransferExample\MainWindow.xaml.cs:line 451
