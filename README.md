@@ -15,6 +15,7 @@ future developments are endless. Code Sharer aims to be a handy tool for every p
 > * Chat
 
 ## Screenshots
+![img](Images/Startup.PNG)
 ![img](Images/Chat.jpg)
 ![img](Images/Server.jpg)
 ![img](Images/Editor.jpg)
