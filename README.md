@@ -20,5 +20,5 @@ future developments are endless. Code Sharer aims to be a handy tool for every p
 ![img](Images/Server.jpg)
 ![img](Images/Editor.jpg)
 ![img](Images/File transfer.png)
-##Bugs and Feedback
+## Bugs and Feedback
 For bugs, questions and discussions please use the [Github Issues](https://github.com/aksh4y/CS/issues).
